@@ -1,0 +1,53 @@
+<div class='small-1 columns'>
+  <span data-tooltip aria-haspopup='true' class='has-tip radius' title='Precentage Vaccinated'>
+    <span id='sliderOutput'></span>
+
+  </span>
+  <div id='slider' class='range-slider radius vertical-range' data-slider='50' data-options='vertical: true; display_selector: #sliderOutput;'>
+    <span class='range-slider-handle' role='slider' tabindex='0'></span>
+    <span class='range-slider-active-segment'></span>
+  </div>
+
+  <ul class='no-bullet'>
+    <li><span class='label success radius'>Vaccinated</span></li>
+    <li><span class='label radius'>Healthy</span></li>
+    <li><span class='label alert radius'>Infected</span></li>
+  </ul>
+</div>
+
+<div class='small-9 columns'>
+  <canvas id='canvas' width='0' height='0'></canvas>
+</div>
+
+<div class='small-2 columns'>
+  <select>
+    <option value='1'>Adenovirus</option>
+    <option value='2'>Anthrax</option>
+    <option value='3'>Chickenpox</option>
+    <option value='4'>Diphtheria</option>
+    <option value='5'>Hib Infection</option>
+    <option value='6'>Human Papillomavirus</option>
+    <option value='7'>Influenza</option>
+    <option value='8'>Japanese Encephalitis</option>
+    <option value='9'>Measles</option>
+    <option value='10'>Meningococcal</option>
+    <option value='11'>Monkeypox</option>
+    <option value='12'>Mumps</option>
+    <option value='13'>Pneumococcal</option>
+    <option value='14'>Polio</option>
+    <option value='15'>Rabies</option>
+    <option value='16'>Rotavirus</option>
+    <option value='17'>Shingles</option>
+    <option value='18'>Smallpox</option>
+    <option value='19'>Tetanus</option>
+    <option value='20'>Tuberculosis</option>
+    <option value='21'>Typhoid Fever</option>
+    <option value='22'>Whooping Cough</option>
+    <option value='23'>Yellow Fever</option>
+  </select>
+
+  <ul class='button-group round even-2'>
+    <li><a id='start' class='small button success'>On</a></li>
+    <li><a id='stop' class='small button secondary disabled'>Off</a></li>
+  </ul>
+</div>

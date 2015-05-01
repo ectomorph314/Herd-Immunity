@@ -1,0 +1,13 @@
+body {
+  overflow: hidden;
+  margin: 1% auto;
+}
+
+#sliderOutput {
+  display: block
+}
+
+#canvas {
+  border: thick inset #e7e7e7;
+  background-color: #222222;
+}
